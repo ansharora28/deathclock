@@ -5,12 +5,14 @@ import Example from "./components/verifyTailwind";
 
 import { createBrowserRouter, Outlet, RouterProvider } from "react-router-dom";
 import Landing from "./components/landingpage";
+import Registration from "./components/Auth";
 
 const AppLayout = () => {
   return (
     <div className="App">
       <Navbar />
-      <Landing />
+      <Registration />
+      {/* <Landing /> */}
     </div>
   );
 };

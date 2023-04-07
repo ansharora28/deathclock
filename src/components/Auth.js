@@ -38,7 +38,7 @@ const Registration = () => {
               <div className="modal-left">
                 <h1 className="modal-title">Welcome!</h1>
                 <p className="modal-desc">
-                  To the thapa technical website for programmers.
+                  to the portal of life, literally :)
                 </p>
                 <form onSubmit={handleSubmit}>
                   <div className="input-block">
@@ -114,21 +114,18 @@ const Registration = () => {
                     ) : null}
                   </div>
                   <div className="modal-buttons">
-                    <a href="#" className="">
-                      Want to register using Gmail?
-                    </a>
                     <button className="input-button" type="submit">
                       Registration
                     </button>
                   </div>
                 </form>
-                <p className="sign-up">
+                {/* <p className="sign-up">
                   Already have an account? <a href="#">Sign In now</a>
-                </p>
+                </p> */}
               </div>
               <div className="modal-right">
                 <img
-                  src="https://images.unsplash.com/photo-1512486130939-2c4f79935e4f?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=dfd2ec5a01006fd8c4d7592a381d3776&auto=format&fit=crop&w=1000&q=80"
+                  src="https://i.imgur.com/USzJjqM.jpeg"
                   alt=""
                 />
               </div>
@@ -177,7 +174,7 @@ const Wrapper = styled.section`
   .modal-title {
     margin: 0;
     font-weight: 400;
-    color: #55311c;
+    color: rgb(59 130 246);
   }
   .form-error {
     font-size: 1.4rem;
@@ -230,7 +227,7 @@ const Wrapper = styled.section`
     text-align: center;
   }
   .sign-up a {
-    color: #8c7569;
+    color: rgb(59 130 246);
   }
 
   .input-button {
@@ -240,13 +237,15 @@ const Wrapper = styled.section`
     border: 0;
     color: #fff;
     border-radius: 4px;
-    background: #8c7569;
+    background: rgb(59 130 246);
     transition: 0.3s;
     cursor: pointer;
     font-family: "Nunito", sans-serif;
   }
   .input-button:hover {
-    background: #55311c;
+    background: orange;
+    opacity: 0.7;
+    
   }
 
   .input-label {
@@ -254,7 +253,7 @@ const Wrapper = styled.section`
     text-transform: uppercase;
     font-weight: 600;
     letter-spacing: 0.7px;
-    color: #8c7569;
+    color: rgb(59 130 246);
     transition: 0.3s;
   }
 
@@ -287,7 +286,7 @@ const Wrapper = styled.section`
     opacity: 1;
   }
   .input-block:focus-within {
-    border-color: #8c7569;
+    border-color: rgb(59 130 246);
   }
   .input-block:focus-within .input-label {
     color: rgba(140, 117, 105, 0.8);

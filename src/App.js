@@ -1,16 +1,16 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import Navbar from "./components/navbar";
-import LandingPage from "./components/landingpage";
 import Example from "./components/verifyTailwind";
 
 import { createBrowserRouter, Outlet, RouterProvider } from "react-router-dom";
+import Landing from "./components/landingpage";
 
 const AppLayout = () => {
   return (
     <div className="App">
       <Navbar />
-      <LandingPage />
+      <Landing />
     </div>
   );
 };

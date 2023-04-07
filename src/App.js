@@ -1,6 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-
+import Navbar from "./components/navbar";
+import LandingPage from "./components/landingpage";
 import Example from "./components/verifyTailwind";
 
 import { createBrowserRouter, Outlet, RouterProvider } from "react-router-dom";
@@ -8,7 +9,8 @@ import { createBrowserRouter, Outlet, RouterProvider } from "react-router-dom";
 const AppLayout = () => {
   return (
     <div className="App">
-      <h1>hello</h1>
+      <Navbar />
+      <LandingPage />
     </div>
   );
 };
